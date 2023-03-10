@@ -1,0 +1,22 @@
+{
+  "name": "tempusregistratum.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TempusRegistratum/TempusRegistratum.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TempusRegistratum/TempusRegistratum.github.io/issues"
+  },
+  "homepage": "https://github.com/TempusRegistratum/TempusRegistratum.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  }
+}
