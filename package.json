@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "start": "http-server pages -d false",
-    "bs": "npx @11ty/eleventy && http-server pages -d false"
+    "start": "http-server docs -d false",
+    "bs": "npx @11ty/eleventy && http-server docs -d false"
   },
   "repository": {
     "type": "git",
