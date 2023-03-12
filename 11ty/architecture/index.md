@@ -5,4 +5,5 @@ permalink: architecture/index.html
 ## Architecture
 * [Background](/architecture/background)
 * [Requisitos](/architecture/requirements)
+* [Próximos passos](/architecture/next-steps)
 
