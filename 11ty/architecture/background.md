@@ -1,5 +1,5 @@
 ---
-permalinkg: architecture/background.html
+permalink: architecture/background.html
 ---
 # Background
 
