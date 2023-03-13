@@ -249,6 +249,29 @@
 
 	};
 
+    var markNavItemAsActive = function() {
+        const currentPath = location.pathname;
+        $('nav .nav-main-list-item-link').each(function() {
+            const $this = $(this),
+                linkUrl = $this.attr('href'),
+                linkParsed = linkUrl.slice(1).split('/'),
+                [firstPathNode] = linkParsed;
+
+            // Link home only activates if the path is home, AKA '/'.
+            if ('' === firstPathNode) {
+                if ('/' === currentPath) {
+                    $this.parent().addClass('active');
+                }
+                return;
+            }
+
+            // Activates a parent menu item if the open page corresponds to a children item.
+            if (-1 !== currentPath.indexOf(`/${firstPathNode}`)) {
+                $this.parent().addClass('active');
+            }
+        })
+    };
+
 	
 	$(function(){
 		mobileMenuOutsideClick();
@@ -261,6 +284,7 @@
 		loaderPage();
 		counterWayPoint();
 		fullHeight();
+        markNavItemAsActive();
 	});
 
 
