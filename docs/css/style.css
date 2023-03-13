@@ -62,15 +62,19 @@ p {
   margin-bottom: 30px;
 }
 
-ul li p {
+#container-page h2 {
+    margin-top: 70px;
+}
+
+#container-page ul li p {
     margin-bottom: 0;
 }
 
-ul li ul li:last-child {
+#container-page ul li ul li:last-child {
     margin-bottom: 30px;
 }
 
-ul li:last-child  ul li:last-child {
+#container-page ul li:last-child  ul li:last-child {
     margin-bottom: 0;
 }
 
