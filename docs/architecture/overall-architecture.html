@@ -91,11 +91,23 @@
 	</nav>
 
     <div id="container-page" class="container">
-    <h1>Arquitetura</h1>
+    <h1>Arquitetura Geral</h1>
+<p><img src="/images/overall-architecture.jpg" alt="Overall Architecture"></p>
+<h2>Contextos</h2>
+<p>A arquitetura foi definida em dois grandes contextos: o core do sistema e o contexto de gerenciamento. São eles:</p>
 <ul>
-<li><a href="/architecture/background">Background</a></li>
-<li><a href="/architecture/requirements">Requisitos</a></li>
-<li><a href="/architecture/next-steps">Próximos passos</a></li>
+<li><strong>Core do sistema</strong>: consiste nas funções de marcação de pontos, conferência e ajuste de horários</li>
+<li><strong>Contexto de gerenciamento</strong>: funções de gerenciamento de times, pessoas e empresas</li>
+<li><strong>Contexto de segurança e autorização</strong>: camada de login e autorização de acessos</li>
+</ul>
+<h2>Serviços</h2>
+<ul>
+<li><strong>register-service</strong>: serviço separado apenas para o registro de horários, dada a carga que esse fluxo deve suportar (lambda?)</li>
+<li><strong>mirror-service</strong>: serviço separado apenas para a conferência de horários, também pela carga mais elevada que esse fluxo deve suportar</li>
+<li><strong>register-management-service</strong>: reúne as funcionalidades de realização e análise de pedidos de marcação</li>
+<li><strong>business-service</strong>: responsável por gerenciar funcionários, times e empresas (serviço gigante?)</li>
+<li><strong>auth-service</strong>: funcionalidades de login e camada de autorização no acesso de cada endpoint</li>
+<li><strong>log-service</strong>: responsável por registrar os logs de todos os serviços</li>
 </ul>
 
 </div>
