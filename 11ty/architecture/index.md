@@ -1,6 +1,6 @@
 ---
 permalink: architecture/index.html
-layout: base
+layout: page
 ---
 ## Arquitetura
 * [Background](/architecture/background)

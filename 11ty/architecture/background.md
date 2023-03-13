@@ -1,6 +1,6 @@
 ---
 permalink: architecture/background.html
-layout: base
+layout: page
 ---
 # *Background*
 

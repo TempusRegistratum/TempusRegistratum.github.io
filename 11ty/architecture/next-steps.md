@@ -1,6 +1,6 @@
 ---
 permalink: architecture/next-steps.html
-layout: base
+layout: page
 ---
 # Próximos passos
 
