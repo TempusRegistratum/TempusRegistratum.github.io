@@ -482,7 +482,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .user-frame {
-  width: 90%;
   padding: 3em;
   -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
