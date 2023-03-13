@@ -1,8 +1,8 @@
 ---
 permalink: architecture/index.html
+layout: page
 ---
-# Tempus Registratum
-## Architecture
+## Arquitetura
 * [Background](/architecture/background)
 * [Requisitos](/architecture/requirements)
 * [Próximos passos](/architecture/next-steps)
