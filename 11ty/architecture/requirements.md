@@ -1,5 +1,6 @@
 ---
 permalink: architecture/requirements.html
+layout: base
 ---
 # Requisitos
 ## Funcionais
